@@ -1,0 +1,156 @@
+
+*{
+    font-family: 'poppins';
+}
+
+html{
+    font-size: 14px;
+}
+/* proper */
+
+
+.btn{
+    background: #86BE3F;
+    border-radius: 6px;
+    color: #ffff;
+    height: 40px;
+    width: 130px;
+    margin: 0 auto;
+}
+.btn:hover{
+    color: #86BE3F;
+    border-radius: 6px;
+    background-color: #ffff;
+    height: 40px;
+    width: 130px;
+    margin: 0 auto;
+}
+.info-icon{
+    max-width: 12px;
+}
+.nav-container{
+    width: vw;
+    border: 1px solid #F3EDED;
+}
+.page-items-container{
+    font-size: 12px;
+}
+.page-item{
+    min-width: 100px;
+}
+.background-container{
+    color: #ffff;
+    background-image: url("../imgs/background/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+.background-sub-container{
+    padding: 3%;
+    padding-top: 40vh;
+}
+.green-underline{
+    height: 0px;
+    width: 10%;
+    min-width: 100px;
+    border-radius: 6px;
+    border: 3px solid #86BE3F;
+}
+.profile-information{
+    padding: 1rem 1rem;
+    justify-content: stretch;
+}
+.profile-card{
+    width: 270px;
+}
+
+.profile-card-info{
+    padding: 1.5rem;
+    padding-top: 0;
+    align-content: stretch;
+    height: 270px;
+}
+.background-profile{
+    background-color: #F3EDED;
+    width: 100%;
+    min-height: 350px;
+    margin-top: -140%;
+    border-radius: 5px;
+}
+
+.profile-cards-container{
+    max-width: 1100px;
+}
+
+.sire-cont{
+    margin-top: 20%;
+}
+.SIRE-container{
+    max-width: 600px;
+}
+.img-SIRE-container{
+    max-width: 500px;
+}
+#img-SIRE-1{
+    width: 70%;
+    float: left;
+    margin-bottom: -10rem;
+}
+#img-SIRE-2{
+    width: 60%;
+    float: right;
+    
+}
+@media screen and (min-width: 770px) {
+
+    .nav-item-container{
+        float: right;
+
+    }
+    /* empty */
+}  
+
+@media screen and (min-width: 1240px) {
+    /* empty */
+
+}  
+
+@media screen and (max-width: 990px) {
+    html{
+        font-size: 12px;
+    }
+
+}  
+@media screen and (max-width: 780px) {
+    .page-items-container{
+        display: none;
+    }
+
+}  
+
+.bg-check{
+    background-color: aqua;
+}
+
+.quality-icos-design,
+.card-ico-design{
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid #86BE3F;
+    border-radius: 30rem;
+    padding: 1rem;
+}
+.card-ico-design{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-120%);
+  }
